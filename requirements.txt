@@ -1,0 +1,18 @@
+# Requirements for this completion pack (losses.py, metrics.py, and their tests).
+#
+# These are pinned because they're small, stable, and easy to verify.
+#
+# The notebook's own heavier stack (torch_geometric, fair-esm, rdkit, xgboost,
+# py3Dmol, vina/openbabel) is deliberately NOT re-pinned here: pinning exact
+# versions without access to the target CUDA/GPU environment (Colab's build
+# changes periodically) risks specifying a combination that doesn't actually
+# install together, which is worse than the notebook's current
+# "%pip install -q <package>" (latest-compatible) approach. If you do want to
+# pin the full stack, do it by capturing `pip freeze` from a Colab session
+# that has already run the notebook successfully end-to-end, and check that
+# lockfile in alongside the notebook itself.
+
+numpy==1.26.4
+scipy==1.13.1
+torch==2.4.1
+pytest==8.3.2

@@ -1,0 +1,9 @@
+# caches, checkpoints and embeddings (live on Google Drive, not in git)
+gnn_dti_cache/
+*.pt
+*.npz
+*.parquet
+# python / notebook
+__pycache__/
+.ipynb_checkpoints/
+.env
