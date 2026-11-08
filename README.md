@@ -50,7 +50,7 @@ docs/        summary slides
 
 ## AI assistance
 
-This project was developed with AI assistance (Anthropic's Claude), used for drafting and debugging code, explaining methods, and preparing documentation and slides. I ran the experiments and am responsible for the results and their interpretation.
+Developed with assistance from Claude (Anthropic) for code, debugging and documentation. Experiments were run and interpreted by me.
 
 ## Next steps
 
